@@ -1,0 +1,1700 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #ffff13;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+
+}
+
+.header .navigation {
+    position: relative;
+    top: 10px;
+    align-content: center;
+    
+}
+
+.header .navigation span {
+    position: relative;
+    font-weight: 600;
+    font-size: 30px;
+    left: 150px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    top: 3px;
+
+}
+
+.header .navigation span a{
+    text-decoration: none;
+
+}
+
+.header .navigation ul {
+    position: relative;
+    letter-spacing: 2px;
+    float: right;
+    position: relative;
+    margin-right: 139px;
+    bottom: 4px;
+}
+
+.header .navigation ul .container {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    width: 10px;
+    top: 14px;
+    right: 80px;
+
+
+}
+
+.header .navigation ul .container a{
+    color: #1b62e6;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 11.8px;
+ 
+    
+}
+
+.drop-down-arrow {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 4px 4px 0;
+    border-color: #1b62e6 transparent;
+    margin-left: 5px;
+
+}
+
+.header .navigation ul li {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    padding-right: 25px;
+    font-weight: 600;
+    font-size: 11.8px;
+ 
+}
+
+.header .navigation ul li a{
+    color: #1b62e6;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+.body {
+    width: 100%;
+}
+
+.body .detail-placeholder {
+    position: relative;
+    width: 50%;
+    height: 750px;
+    background: #1b62e6;
+    box-sizing: border-box;
+    
+}
+
+.body .detail-placeholder .input1 {
+    position: relative;
+    width: 286px;
+    height: 85px;
+    appearance: none;
+    top: 108px;
+    left: 160px;
+    box-sizing: border-box;
+
+}
+
+.body .detail-placeholder .input2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 120px;
+    left: 160px;
+    width: 286px;
+    height: 85px;
+}
+
+
+.body .detail-placeholder .input3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 124px;
+    left: 160px;
+    width: 286px;
+    height: 85px; 
+}
+
+
+.body .detail-placeholder .input4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 135px;
+    left: 160px;
+    width: 286px;
+    height: 85px;
+}
+
+
+label {
+    position: relative;
+    bottom: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+select {
+    position: relative;
+    color: #1b62e6;
+    width: 286px;
+    height: 49px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px 0px 0px 5px;
+    border-width: 0px;
+
+}
+
+option{
+    font-weight: 600;
+    color: black;
+    
+}
+
+form{
+    position: relative;
+    color: #1b62e6;
+    width: 286px;
+    height: 49px;
+    /* padding: 15px; */
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px 0px 0px 5px;
+    border-width: 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+input{
+    position: relative;
+    color: #1b62e6;
+    width: 286px;
+    height: 49px;
+    /* padding: 15px; */
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px 0px 0px 5px;
+    border-width: 0px;
+
+}
+
+
+
+.indate {
+    position: relative;
+    color: #1b62e6;
+    width: 286px;
+    height: 49px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px 0px 0px 5px;
+    border-width: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+.body .detail-placeholder .input1b {
+    position: relative;
+    display: flex;
+    left: 448px;
+    padding: 0px;
+    width: 286px;
+    height: 85px;
+    bottom: 228px;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.body .detail-placeholder .input1b .cl {
+    position: relative;
+    align-items: end;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+
+}
+
+
+.body .detail-placeholder .input1b .pcde {
+    position: relative;
+    height: 48px;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    
+}
+
+.body .detail-placeholder .input2b {
+    position: relative;
+    display: flex;
+    left: 448px;
+    padding: 0px;
+    width: 286px;
+    height: 85px;
+    bottom: 207px;
+    box-sizing: border-box;
+
+}
+
+
+.body .detail-placeholder .input2b .pcde {
+    position: relative;
+    height: 48px;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    
+}
+
+
+.body .detail-placeholder .input3b {
+    position: relative;
+    display: flex;
+    left: 448px;
+    padding: 0px;
+    width: 286px;
+    height: 85px;
+    bottom: 216px;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.body .detail-placeholder .input3b .pcde {
+    position: relative;
+    height: 49px;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    
+}
+
+
+.body .detail-placeholder .input4b {
+    position: relative;
+    display: flex;
+    left: 448px;
+    padding: 0px;
+    width: 286px;
+    height: 85px;
+    bottom: 209px;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.body .detail-placeholder .input4b .pcde {
+    position: relative;
+    height: 49px;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    
+}
+
+/* .body .detail-placeholder .inputcountry select::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%) rotate(45deg);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #333;
+    pointer-events: none;
+
+} */
+
+
+
+
+.body .image {
+    position: relative;
+    width: 50%;
+    height: 750px;
+    float: right;
+    top: -750px;
+    z-index: 1;
+    align-items: center;
+}
+
+.body .image img{
+    position: relative;
+    z-index: -3;
+    height: 750px;
+    width: 100%;
+    
+}
+
+.body .image p{
+    position: relative;
+    font-size: 72px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffff;
+    left: 70px;
+    z-index: 999;
+    bottom: 647px;
+    line-height: 85px;
+
+}
+
+.body .image .video-container {
+    position: relative;
+    height: 236px;
+    width: 398px;
+    background: #fff;
+    left: 68px;
+    bottom: 630px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.body .image .video-container .deli {
+    z-index: 9998;
+    max-width: 350px;
+    max-height: 100%;
+    border-radius: 5px;
+
+}
+
+.body .image .video-container .play-btn {
+    position: relative;
+    height: 56px;
+    width: 150px;
+    background: #1b62e6;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 450;
+    left: 248px;
+    bottom: 78px;
+    z-index: 9999;
+    padding-top: 21px;
+    padding-left: 55px;
+    box-sizing: border-box;
+    border-radius: 80px 0 0 80px;
+
+}
+
+.body .image .video-container .play-btn a{
+    text-decoration: none;
+    color: #ffff13;
+    
+}
+
+.body .image .video-container .play-btn a:hover {
+    text-decoration: underline;
+
+}
+
+.body .image .video-container .play-btn .play {
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background-color: #ffff13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    bottom: 28px;
+    right: 49px;
+
+}
+
+.body .image .video-container .play-btn .play::after {
+    content: "";
+    border-style: solid;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #1b62e6;
+    position: relative;
+    left: 2px;
+    
+}
+
+
+.body .carriers {
+    position: relative;
+    width: 100%;
+    height: 109vh;
+    background: #144eba;
+    align-content: center;
+}
+
+.body .carriers .heading {
+    position: absolute;
+    color: #fff;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.body .carriers .log-comp {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 73%;
+    top: 180px;
+    background-color: #1b62e6;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 30px ;
+    padding-right: 20px;
+  
+}
+
+.body .carriers ul li {
+    display: inline;
+    /* margin-right: 30px; */
+    margin-left: 120px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff13;
+    font-weight: 500;
+
+}
+
+.body .carriers .easy {
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    top: 313px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .carriers .info-boxes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 47vh;
+    width: 100%;
+    bottom: 325px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  
+
+}
+
+.body .carriers .info-boxes .box-1 {
+    position: relative;
+    height: 460px;
+    width: 380px;
+    color: #144eba;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 35px;
+    box-sizing: border-box;
+    margin-right: 20px;
+
+}
+
+
+.body .carriers .info-boxes .box-1 .exp-1 {
+    position: relative;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 420;
+    font-size: 15px;
+    top: 300px;
+    align-items: center;
+    text-transform: capitalize;
+    line-height: 22px;
+
+}
+
+.body .carriers .info-boxes .box-2 {
+    position: relative;
+    height: 460px;
+    width: 380px;
+    color: #144eba;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 35px;
+    box-sizing: border-box;
+    margin-left: 510px;
+}
+
+.body .carriers .info-boxes .box-2 .exp-2 {
+    position: relative;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 420;
+    font-size: 15px;
+    top: 300px;
+    align-items: center;
+    text-transform: lowercase;
+    line-height: 22px;
+
+}
+
+.body .carriers .info-boxes .box-3 {
+    position: absolute;
+    height: 460px;
+    width: 380px;
+    color: #144eba;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 35px;
+    box-sizing: border-box;
+    margin: 0px 270px;
+
+}
+
+.body .carriers .info-boxes .box-3 .exp-3 {
+    position: relative;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 420;
+    font-size: 15px;
+    top: 300px;
+    align-items: center;
+    text-transform: lowercase;
+    line-height: 22px;
+
+}
+
+.body .destinations {
+    position: relative;
+    width: inherit;
+    height: 147vh;
+    background: #1b62e6;
+}
+
+.body .destinations .dst-txt {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+/* BATCH 1 */
+
+.body .destinations .batch-1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    top: 140px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+
+/* haiti */
+
+.body .destinations .batch-1 .box-haiti {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin-right: 78px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.body .destinations .batch-1 .box-haiti img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+
+}
+
+.body .destinations .batch-1 .box-haiti .city {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    width: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+}
+
+.body .destinations .batch-1 .box-haiti .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-1 .box-haiti .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-1 .box-haiti .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-1 .box-haiti .num span {
+    font-weight: 600;
+}
+
+.body .destinations .batch-1 .box-haiti .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-1 .box-haiti .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-1 .box-haiti .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-1 .box-haiti .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+
+/* DOULA */
+
+.body .destinations .batch-1 .box-doula {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.body .destinations .batch-1 .box-doula img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.body .destinations .batch-1 .box-doula .city {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+}
+
+.body .destinations .batch-1 .box-doula .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-1 .box-doula .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-1 .box-doula .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-1 .box-doula .num span {
+    font-weight: 600;
+}
+
+.body .destinations .batch-1 .box-doula .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-1 .box-doula .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-1 .box-doula .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-1 .box-doula .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+/* china */
+
+.body .destinations .batch-1 .box-china {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin-left: 78px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.body .destinations .batch-1 .box-china img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.body .destinations .batch-1 .box-china .city {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+}
+
+.body .destinations .batch-1 .box-china .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-1 .box-china .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-1 .box-china .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-1 .box-china .num span {
+    font-weight: 600;
+}
+
+.body .destinations .batch-1 .box-china .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-1 .box-china .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-1 .box-china .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-1 .box-china .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+
+
+/* BATCH 2 */
+
+.body .destinations .batch-2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    top: 180px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+/* newyork */
+
+.body .destinations .batch-2 .box-ny {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin-right: 78px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.body .destinations .batch-2 .box-ny img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.body .destinations .batch-2 .box-ny .city {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+}
+
+.body .destinations .batch-2 .box-ny .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-2 .box-ny .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-2 .box-ny .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-2 .box-ny .num span {
+    font-weight: 600;
+}
+
+.body .destinations .box-ny .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-2 .box-ny .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-2 .box-ny .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-2 .box-ny .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+
+/* beirut */
+
+.body .destinations .batch-2 .box-beirut {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.body .destinations .batch-2 .box-beirut img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.body .destinations .batch-2 .box-beirut .city {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+}
+
+.body .destinations .batch-2 .box-beirut .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-2 .box-beirut .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-2 .box-beirut .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-2 .box-beirut .num span {
+    font-weight: 600;
+}
+
+.body .destinations .batch-2 .box-beirut .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-2 .box-beirut .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-2 .box-beirut .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-2 .box-beirut .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+
+/* mexico */
+
+.body .destinations .batch-2 .box-mexico {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 78px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.body .destinations .batch-2 .box-mexico img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.body .destinations .batch-2 .box-mexico .city {
+    position: absolute;
+    font-size: 30px;
+    width: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.body .destinations .batch-2 .box-mexico .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-2 .box-mexico .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-2 .box-mexico .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-2 .box-mexico .num span {
+    font-weight: 600;
+}
+
+.body .destinations .batch-2 .box-mexico .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-2 .box-mexico .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-2 .box-mexico .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-2 .box-mexico .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+
+/* BATCH 3 */
+
+.body .destinations .batch-3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    top: 220px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+
+/* rome */
+
+.body .destinations .batch-3 .box-rome {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin-right: 78px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.body .destinations .batch-3 .box-rome img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.body .destinations .batch-3 .box-rome .city {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+}
+
+.body .destinations .batch-3 .box-rome .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-3 .box-rome .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-3 .box-rome .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-3 .box-rome .num span {
+    font-weight: 600;
+}
+
+.body .destinations .batch-3 .box-rome .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-3 .box-rome .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-3 .box-rome .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-3 .box-rome .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+
+/* sydney */
+
+.body .destinations .batch-3 .box-sydney {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.body .destinations .batch-3 .box-sydney img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.body .destinations .batch-3 .box-sydney .city {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+}
+
+.body .destinations .batch-3 .box-sydney .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-3 .box-sydney .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-3 .box-sydney .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-3 .box-sydney .num span {
+    font-weight: 600;
+}
+
+.body .destinations .batch-3 .box-sydney .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-3 .box-sydney .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-3 .box-sydney .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-3 .box-sydney .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+
+
+/* manila */
+
+.body .destinations .batch-3 .box-manila {
+    position: relative;
+    height: 300px;
+    width: 380px;
+    background: #144eba;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin-left: 78px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.body .destinations .batch-3 .box-manila img {
+    position: relative;
+    height: 212px;
+    width: 380px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.body .destinations .batch-3 .box-manila .city {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    
+}
+
+.body .destinations .batch-3 .box-manila .country {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    bottom: 175px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.body .destinations .batch-3 .box-manila .prcn-dtail {
+    position: relative;
+    font-size: 18px;
+    left: 70px;
+    top: 30px;
+   
+}
+
+.body .destinations .batch-3 .box-manila .num {
+    position: relative;
+    font-size: 38px;
+    box-sizing: border-box;
+    left: 180px;
+    top: 6px;
+
+}
+
+.body .destinations .batch-3 .box-manila .num span {
+    font-weight: 600;
+}
+
+.body .destinations .batch-3 .box-manila .dt {
+    position: relative;
+    left: 49px;
+    bottom: 37px;
+    
+}
+
+.body .destinations .batch-3 .box-manila .num .dt .nm {
+    font-weight: 600;
+    font-size: 22px;
+    bottom: 30px;
+
+}
+
+.body .destinations .batch-3 .box-manila .num .dt .nm sup {
+    position: relative;
+    font-size: small;
+    bottom: 7px;
+    right: 5px;
+}
+
+.body .destinations .batch-3 .box-manila .num .dt .cd {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    bottom: 23px;
+
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 13vh;
+    background: #144eba;
+    overflow: hidden;
+    
+}
+
+.footer .logo-z {
+    display: flex;
+    width: 50%;
+}
+
+.footer .logo-z .z {
+    position: relative;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff13;
+    font-size: 38px;
+    font-weight: 600;
+    left: 45px;
+    top: 20px;
+
+}
+
+.footer .logo-z .social {
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: 90px;
+    top: 30px;
+
+}
+
+.footer .logo-z .social li {
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 80px;
+    font-size: 24px;
+    
+}
+
+.footer .logo-z .social li a{
+    color: #ffff13;
+    text-decoration: none;
+    
+}
+
+.footer .logo-z .social li:hover {
+    transform: scale(1.1);
+}
+
+.footer .logo-z .social li a:hover {
+    color: #fff;
+
+}
+
+
+
+.footer .contact {
+    position: relative;
+    display: flex;
+    float: right;
+    width: 50%;
+
+}
+
+.footer .contact .cts {
+    position: relative;
+    list-style: none;
+    display: flex;
+    left: 40px;
+
+}
+
+.footer .contact .cts li {
+    margin-right: 95px;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer .contact .cts li a{
+    color: #ffff13;
+    text-decoration: none;
+    
+}
+
+.footer .contact .cts li a:hover {
+    text-decoration: underline;
+}
+
+.footer .rights {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    top: 79px;
+}
